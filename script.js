@@ -3,12 +3,9 @@ const todoinput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todolist = document.querySelector('.todo-list');
 
-
-
 //EVENT LISTENERS
 todoButton.addEventListener('click', addtodo );
 todolist.addEventListener('click', deletecheck);
-
 
 //FUNCTIONS
 function addtodo(event){
@@ -23,8 +20,6 @@ function addtodo(event){
     newtodo.classList.add('todo-item');
     todoDIV.appendChild(newtodo);
     
-
-
     // checkmark button
     const completedbutton = document.createElement('button');
     completedbutton.innerHTML = '<i class="fas fa-check"></i>';
@@ -53,7 +48,6 @@ function deletecheck(e){
         })
         // todo.remove();
     }
-
 
     if(item.classList[0] === "complete-btn"){
         const todo = item.parentElement;
