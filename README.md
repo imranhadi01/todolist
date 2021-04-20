@@ -1,2 +1,2 @@
 # todolist
-using HTML,CSS, JavaScript
+Using HTML,CSS and JavaScript
