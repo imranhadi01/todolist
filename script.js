@@ -30,10 +30,9 @@ function addtodo(event){
     trashBtn.innerHTML = '<i class="fas fa-trash"></i>';
     trashBtn.classList.add("trash-btn");
     todoDIV.appendChild(trashBtn);
-
     //APPend two list
     todolist.appendChild(todoDIV);
-
+    // :)
     // clear input
     todoinput.value = "";
 
