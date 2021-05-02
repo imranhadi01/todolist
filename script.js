@@ -45,7 +45,7 @@ function deletecheck(e){
         todo.addEventListener('transitionend', function() {
             todo.remove()
         })
-        // todo.remove();
+        // todo.remove(); finish
     }
 
     if(item.classList[0] === "complete-btn"){
